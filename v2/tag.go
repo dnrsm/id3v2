@@ -246,6 +246,14 @@ func (tag *Tag) SetAlbum(album string) {
 	tag.AddTextFrame(tag.CommonID("Album/Movie/Show title"), tag.DefaultEncoding(), album)
 }
 
+func (tag *Tag) AlbumArtist() string {
+	return tag.GetTextFrame(tag.CommonID("AlbumArtist")).Text
+}
+
+func (tag *Tag) SetAlbumArtist(albumArtist string) {
+	tag.AddTextFrame(tag.CommonID("AlbumArtist"), tag.DefaultEncoding(), albumArtist)
+}
+
 func (tag *Tag) Year() string {
 	return tag.GetTextFrame(tag.CommonID("Year")).Text
 }

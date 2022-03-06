@@ -55,9 +55,10 @@ var (
 		"Unsynchronised lyrics/text transcription": "USLT",
 
 		// Just for convenience.
-		"Artist": "TPE1",
-		"Title":  "TIT2",
-		"Genre":  "TCON",
+		"Artist":      "TPE1",
+		"AlbumArtist": "TPE2",
+		"Title":       "TIT2",
+		"Genre":       "TCON",
 	}
 
 	V24CommonIDs = map[string]string{
@@ -122,9 +123,10 @@ var (
 		"Year":                  "TDRC",
 
 		// Just for convenience.
-		"Artist": "TPE1",
-		"Title":  "TIT2",
-		"Genre":  "TCON",
+		"Artist":      "TPE1",
+		"AlbumArtist": "TPE2",
+		"Title":       "TIT2",
+		"Genre":       "TCON",
 	}
 )
 
